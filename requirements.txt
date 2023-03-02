@@ -3,6 +3,7 @@ Flask
 gunicorn
 fastapi
 django
+tensorflow
 itsdangerous
 Jinja2
 joblib
