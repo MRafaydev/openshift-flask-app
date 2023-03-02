@@ -4,6 +4,7 @@ gunicorn
 fastapi
 django
 tensorflow
+logbook
 itsdangerous
 Jinja2
 joblib
