@@ -1,0 +1,17 @@
+click
+Flask
+gunicorn
+fastapi
+django
+itsdangerous
+Jinja2
+joblib
+MarkupSafe
+numpy
+pandas
+python-dateutil
+pytz
+scikit-learn
+scipy
+six
+Werkzeug
