@@ -3,7 +3,7 @@ FROM python:3.8-slim-buster
 WORKDIR /app
 
 # Set the index URL to your PyPI proxy
-COPY pip.ini /etc/pip.conf  
+RUN pip install --no-cache-dir --trusted-host 127.0.0.1:8081 -r requirements.txt 
 
 COPY requirements.txt requirements.txt
 RUN pip3 install --no-cache-dir -r requirements.txt
