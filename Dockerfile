@@ -14,8 +14,8 @@ WORKDIR /app
 RUN pip install --no-cache-dir --trusted-host 127.0.0.1:8081 pip && \
     pip config set global.index-url http://127.0.0.1:8081/repository/pypi-proxy/simple
 
-COPY requirements.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+# COPY requirements.txt requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
